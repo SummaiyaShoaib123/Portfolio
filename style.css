@@ -1,0 +1,84 @@
+h1{
+    color:black;
+}
+
+p{
+    color:navy;
+}
+header{
+    background-color:lightblue;
+    padding: 5px;
+}
+nav {
+  align-items: center;
+  text-align: right;
+  margin-top: 10px;
+}
+nav a{
+    margin-right:20px;
+    text-decoration: none;
+    color: navy;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color:black;
+    text-align:left;
+}
+
+.skills{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:5px;
+
+}
+.skills
+{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
+    text-align: center;
+    gap:16px;
+}
+.skill
+{
+    border:3px solid lightblue;
+    padding: 1rem;
+    background-color:lightblue;
+    color:navy;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #064e3b;
+    padding: 1 rem;
+    background-color:lightblue;
+    color:navy;
+}
+
+.contact{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact a{
+    color: navy;
+    text-decoration: none;
+}
+footer {
+    background-color: lightblue;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 20px 40px;
+
+}
+
